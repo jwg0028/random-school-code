@@ -1,0 +1,50 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style for the button */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Default style for the text */
+#hello-text {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Style for the dartboard image */
+#dartboard {
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#dartboard:hover {
+    border: 4px solid black;
+}
+
+/* Centering the dartboard container */
+#dartboard-container {
+    text-align: center;
+}
+
+
